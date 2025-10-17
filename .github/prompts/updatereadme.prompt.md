@@ -1,6 +1,6 @@
 ---
 mode: 'agent'
-tools: ['markdownlint', 'codebase']
+tools: ['search/codebase']
 description: 'Update the documentation README.md file with new changes.'
 ---
 
