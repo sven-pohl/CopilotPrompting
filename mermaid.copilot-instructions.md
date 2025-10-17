@@ -14,33 +14,33 @@ Use Microsoft's official color scheme:
 
 - **Primary Blue**: `#0078d4` (Microsoft Blue) - for primary components and emphasis
 - **Secondary Colors**:
-  - Light Blue: `#e1f5ff` - backgrounds for client/user-facing components
-  - Orange: `#ff8c00` - server/backend components
-  - Green: `#28a745` - success states, completed processes
-  - Purple: `#d946ef` - AI/ML services, specialized processing
-  - Red: `#dc3545` - security, authentication, errors
-  - Yellow: `#ffc107` - monitoring, observability, warnings
-  - Gray: `#666`, `#888`, `#f5f5f5` - external systems, supporting elements
+  - Light Blue: '#e1f5ff' - backgrounds for client/user-facing components
+  - Orange: '#ff8c00' - server/backend components
+  - Green: '#28a745' - success states, completed processes
+  - Purple: '#d946ef' - AI/ML services, specialized processing
+  - Red: '#dc3545' - security, authentication, errors
+  - Yellow: '#ffc107' - monitoring, observability, warnings
+  - Gray: '#666', '#888', '#f5f5f5' - external systems, supporting elements
 
 ### Typography
 
 - Use clear, readable labels with proper hierarchy
-- Use `<br/>` (not `\n`) for multi-line text in node labels
+- Use '<br/>' (not '\n') for multi-line text in node labels
 - Keep labels concise (3-7 words preferred)
-- Add context in parentheses: `Component Name<br/>(Purpose/Details)`
+- Add context in parentheses: 'Component Name<br/>(Purpose/Details)'
 
 ### Visual Hierarchy
 
-1. **Primary Flow**: Use solid lines with standard arrows (`-->`)
-2. **Secondary/Optional**: Use dotted lines (`-.->`) or dashed lines (`--`)
+1. **Primary Flow**: Use solid lines with standard arrows ('-->')
+2. **Secondary/Optional**: Use dotted lines ('-.->') or dashed lines ('--')
 3. **Data Flow**: Use labeled arrows with descriptive text
 4. **Grouping**: Use subgraphs with descriptive labels in square brackets
 
 ### Styling Classes
 
-Define consistent `classDef` styles:
+Define consistent 'classDef' styles:
 
-```mermaid
+'''mermaid
 classDef client fill:#e1f5ff,stroke:#0078d4,stroke-width:2px
 classDef server fill:#fff4e1,stroke:#ff8c00,stroke-width:2px
 classDef ai fill:#ffe1f5,stroke:#d946ef,stroke-width:2px
@@ -48,7 +48,7 @@ classDef data fill:#f5f5f5,stroke:#666,stroke-width:1px
 classDef security fill:#ffe1e1,stroke:#dc3545,stroke-width:2px
 classDef monitoring fill:#fff9e1,stroke:#ffc107,stroke-width:2px
 classDef external fill:#f5f5f5,stroke:#666,stroke-width:1px,stroke-dasharray:5 5
-```
+'''
 
 ### Accessibility
 
@@ -61,16 +61,16 @@ classDef external fill:#f5f5f5,stroke:#666,stroke-width:1px,stroke-dasharray:5 5
 
 ### Flowcharts
 
-- Use `flowchart TB` (top-bottom) or `flowchart LR` (left-right) based on content flow
+- Use 'flowchart TB' (top-bottom) or 'flowchart LR' (left-right) based on content flow
 - Group related components in subgraphs
-- Use decision diamonds `{Question?}` sparingly
+- Use decision diamonds '{Question?}' sparingly
 - Show error paths with dashed lines
 
 ### Sequence Diagrams
 
 - Use clear actor/participant names
-- Add notes for important context: `Note over A,B: Context`
-- Group related interactions with `alt`, `opt`, `loop` blocks
+- Add notes for important context: 'Note over A,B: Context'
+- Group related interactions with 'alt', 'opt', 'loop' blocks
 - Use activation boxes for async operations
 
 ### Component Diagrams
@@ -90,7 +90,7 @@ classDef external fill:#f5f5f5,stroke:#666,stroke-width:1px,stroke-dasharray:5 5
 
 ## Example Template
 
-```mermaid
+'''mermaid
 flowchart LR
     subgraph Client["Client Layer"]
         User["User<br/>(Browser/IDE)"]
@@ -116,15 +116,15 @@ flowchart LR
     class User client
     class API,Service azure
     class DB data
-```
+'''
 
 ## Validation Checklist
 
 Before committing a Mermaid diagram, ensure:
 
 - [ ] Uses Microsoft color palette
-- [ ] All multi-line labels use `<br/>` not `\n`
-- [ ] Consistent `classDef` styling applied
+- [ ] All multi-line labels use '<br/>' not '\n'
+- [ ] Consistent 'classDef' styling applied
 - [ ] No syntax errors (validate at mermaid.live)
 - [ ] Labels are clear and concise
 - [ ] Sufficient contrast for accessibility
