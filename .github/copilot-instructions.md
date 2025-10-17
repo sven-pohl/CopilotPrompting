@@ -15,7 +15,7 @@ This project aims to create a modern web application using React, TypeScript, an
 
 ## Libraries and Frameworks
 
-1. **React Version**: Use React 18+ with the latest stable version
+1. **React Version**: Use React 19+ with the latest stable version
 2. **Build Tool**: Use Vite for fast development and optimized production builds
 3. **TypeScript**: Enable TypeScript support for type safety
 4. **UI Library**: Use [Fluent UI React Components](https://react.fluentui.dev/)
@@ -26,7 +26,7 @@ This project aims to create a modern web application using React, TypeScript, an
 
 ## Folder Structure
 
-- `/src`: Contains the source code for the frontend.
+- `/frontend`: Contains the source code for the React forntend applicaiton.
 - `/docs`: Contains documentation for the project, including API specifications and user guides.
 - `/docs/assets`: Contains images and diagrams related to the project.
 

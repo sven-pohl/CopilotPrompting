@@ -19,12 +19,17 @@ Ask for the application name if not provided.
    npm create vite@latest {applicationName} -- --template react-ts
    ```
 
-2. Navigate to the project directory:
+2. Stop the dev server started by vite setup
+   ```bash
+   npx kill-port 5173
+   ```
+
+3. Navigate to the project directory:
    ```bash
    cd {applicationName}
    ```
 
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    npm install
    ```
