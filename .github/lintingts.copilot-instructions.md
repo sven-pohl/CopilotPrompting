@@ -8,7 +8,6 @@ applyTo: "**/*.ts"
 
 ### File Structure and Organization
 - Use kebab-case for filenames (enforced by `unicorn/filename-case`)
-- Always include a copyright header in block comment format with the pattern: "Restricted - Copyright (C) Siemens Healthcare GmbH/Siemens Medical Solutions USA, Inc., [YEAR]. All rights reserved."
 - Use Windows line endings
 - Always end files with a newline (`eol-last`)
 

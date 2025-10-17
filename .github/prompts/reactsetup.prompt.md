@@ -1,20 +1,12 @@
 ---
 mode: 'agent'
 model: 'Claude Sonnet 4.5'
-tools: ['githubRepo', 'search/codebase']
+tools: ['runCommands', 'runTasks', 'edit', 'search/codebase', 'todos', 'problems', 'openSimpleBrowser', 'githubRepo']
 description: 'Generate a new React Sample App with Vite'
 ---
 
 Your goal is to generate a modern React application using the latest version of React with Vite as the build tool.
 
-## Requirements
-
-1. **React Version**: Use React 18+ with the latest stable version
-2. **Build Tool**: Use Vite for fast development and optimized production builds
-3. **TypeScript**: Enable TypeScript support for type safety
-4. **Project Structure**: Follow modern React best practices
-5. **UI Library**: Use [Fluent UI React Components](https://react.fluentui.dev/)
-5. **Development Experience**: Configure hot module replacement (HMR) and fast refresh
 
 ## Setup Instructions
 
@@ -86,9 +78,8 @@ Include the following in the generated application:
 1. **Component Structure**: Organized folder structure (components, pages, hooks, utils)
 2. **Routing**: React Router v6+ for navigation (if multi-page)
 3. **State Management**: Context API or modern state management solution
-4. **Styling**: Modern CSS approach (CSS Modules, Tailwind, or styled-components)
-5. **API Integration**: Example of data fetching with proper loading/error states
-6. **Testing Setup**: Vitest configuration for unit tests
+4. **API Integration**: Example of data fetching with proper loading/error states
+5. **Testing Setup**: Vitest configuration for unit tests
 
 ## Deliverables
 
