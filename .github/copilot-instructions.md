@@ -8,6 +8,11 @@ This project aims to create a modern web application using React, TypeScript, an
 - Favour idempotent solutions.
 - Use US English spelling.
 
+## Shell Commands
+- Use `npm` as the package manager.
+- Use `npx` for running one-off commands.
+- Show terminal output for all commands.
+
 ## Libraries and Frameworks
 
 1. **React Version**: Use React 18+ with the latest stable version
