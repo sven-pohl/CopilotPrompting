@@ -7,19 +7,21 @@ description: 'Generate a new React Sample App with Vite'
 
 Your goal is to generate a modern React application using the latest version of React with Vite as the build tool.
 
+Ask for the application name if not provided.
+
 
 ## Setup Instructions
 
 ### Initialize the Project
 
-1. Create a new React + TypeScript project using Vite:
+1. Create a new React + TypeScript project using Vite replacing `{applicationName}` with the desired name:
    ```bash
-   npm create vite@latest my-react-app -- --template react-ts
+   npm create vite@latest {applicationName} -- --template react-ts
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd my-react-app
+   cd {applicationName}
    ```
 
 3. Install dependencies:
